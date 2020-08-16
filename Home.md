@@ -10,14 +10,17 @@
 * [Scan GDML file](https//github.com/KeithSloan/GDML/wiki/scan.md)
 * [Importing STEP file](https//github.com/KeithSloan/GDML/wiki/importSTEP.md)
 
-### Viewing GDML Model
+### Viewing GDML a Model
 
-### Mesh Operations
-
-### Creating a GDML from scratch
+### Creating a GDML model from scratch
 
 [GDML Creation](https//github.com/KeithSloan/GDML/wiki/creation.md)
 
+### Mesh Operations
+
+### Exporting
+
+### Processing a Volume for subsequent Finite Element (FEM) Analysis 
 
 
 ### Installation
