@@ -43,5 +43,4 @@ To make a Toolbar viewable, from the FreeCAD icon bar select **View | Toolbars**
 
 ### Processing a Volume for subsequent Finite Element (FEM) Analysis 
 
-
 ### Installation
