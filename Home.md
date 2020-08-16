@@ -29,7 +29,7 @@ To make a Toolbar viewable, from the FreeCAD icon bar select **View | Toolbars**
 * [Scan GDML file](https//github.com/KeithSloan/GDML/wiki/scan.md)
 * [Importing a STEP file](https//github.com/KeithSloan/GDML/wiki/importSTEP.md)
 
-### Viewing GDML a Model
+### Viewing a GDML Model
 
 ### Creating a GDML model from scratch
 
