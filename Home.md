@@ -21,7 +21,7 @@ So Icons displayed should look similar to the following
 
 ![Icons](https://github.com/KeithSloan/GDML/wiki/wiki_images/Icons.jpeg)
 
-To make a **Toolbar viewable**, from the FreeCAD icon bar select **View | Toolbars**
+To make a **Toolbar viewable**, from the FreeCAD command bar select **View | Toolbars**
 
 ### Importing Files
 
