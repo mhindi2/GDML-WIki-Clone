@@ -31,6 +31,8 @@ To make a Toolbar viewable, from the FreeCAD icon bar select **View | Toolbars**
 
 ### Viewing a GDML Model
 
+### Modifying a GDML Model
+
 ### Creating a GDML model from scratch
 
 [GDML Creation](https://github.com/KeithSloan/GDML/wiki/GDMLModelCreation.md)
