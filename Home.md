@@ -14,7 +14,7 @@
 
 ### Creating a GDML model from scratch
 
-[GDML Creation](https://github.com/KeithSloan/GDML/wiki/GDML_Model_Creation.md)
+[GDML Creation](https://github.com/KeithSloan/GDML/wiki/GDMLModelCreation.md)
 
 ### Mesh Operations
 
