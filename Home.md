@@ -6,7 +6,7 @@
 
 **Selecting the GDML workbench**
 
-From the FreeCAD command bar select **Workbench** then select **GDML**
+From the FreeCAD command bar select **View | Workbench** then select **GDML**
 
 ![Workbenches](https://github.com/KeithSloan/GDML/wiki/wiki_images/Workbenches.gif)
 
