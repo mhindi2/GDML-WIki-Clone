@@ -73,7 +73,7 @@ To make a **Toolbar viewable**, from the FreeCAD command bar select **View | Too
 
 ### Creating a GDML model from scratch
 
-[Model Creation](https://github.com/KeithSloan/GDML/wiki/ModelCreation)
+[GDML Model Creation](https://github.com/KeithSloan/GDML/wiki/Model_Creation)
 
 ### Export/Import - Materials XML files
 
