@@ -23,10 +23,10 @@ Clicking on any of these in the **Tree view** will expand their contents to reve
 A **World Volume - worldVol** containing a GDML Box
 
 You can change the size of the box by first selecting **worldVol** in the **Tree view** which should
-<br> expand its contents
-<br>Then selecting **GDMLBox_WorldBox** and changing its parameters in the **Property view**
+<br> expand its contents. Then selecting **GDMLBox_WorldBox** and changing its parameters in the
+<br>**Property view**
 
-GDML Volumes are implemented as FreeCAD Parts so to add a **Volume** click on the Part Icon
+GDML Volumes are implemented as FreeCAD Parts, so to add a **Volume** click on the Part Icon
 <br> to create a new Part and then drag it to the Work Volume **WorldVol**
 
 Your display should now look like
@@ -42,7 +42,7 @@ You can then add a GDML Object to the Volume/Part, in this example a GDMLBox has
   <img src="https://github.com/KeithSloan/GDML/wiki/wiki_images/Create_3.gif" width="650" height="500">
 </p>
 
-You can export the GDML Model to a GDML file, by selecting WorlVol in the Tree view and
+You can export the GDML Model to a GDML file, by selecting WorldVol in the Tree view and
 <br>then File | Export from the FreeCAD command bar.
 
 Having exported the GDML model you can perform a limited check by importing it back
