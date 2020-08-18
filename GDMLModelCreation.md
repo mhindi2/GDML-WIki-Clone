@@ -23,3 +23,12 @@ A **World Volume - worldVol** containing a GDML Box
 
 You can change the size of the box by first selecting **worldVol** in the **Tree view** which should expand its contents
 Then selecting **GDMLBox_WorldBox** and changing its parameters in the **Property view**
+
+GDML Volumes are implemented as FreeCAD Parts so to add a **Volume** click on the Part Icon to create a new Part and then
+drag it to the Work Volume **WorldVol**
+
+Your display should now look like
+
+<p align="left">
+  <img src="https://github.com/KeithSloan/GDML/wiki/wiki_images/Create_2.gif" width="650" height="500">
+</p>
