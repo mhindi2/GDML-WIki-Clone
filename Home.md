@@ -32,8 +32,8 @@ The results of which are BREP (Boundary Representation) Shapes rather than Solid
 
 The **GDML Workbench** provides a number of facilities to
 
-* Export BREP shapes as GDML Tessellated Objects
-* Allocate a GDML Material and directly Convert a FreeCAD Shape to a GDML Tessellated Object
+* Export FreeCAD(BREP) shapes as GDML Tessellated Objects.
+* Allocate a GDML Material and directly Convert a FreeCAD(BREP) Shape to a GDML Tessellated Object
 <br> using a number of different algorithms
 
     * Standard FreeCAD mesh facilties
