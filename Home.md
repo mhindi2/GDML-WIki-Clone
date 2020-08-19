@@ -40,13 +40,13 @@ The **GDML Workbench** provides a number of facilities to
     * [Gmsh](https://gmsh.info)
     * Tetrahedron (This does not directly translate to GDML, but to a GDML Assembly of GDML Tetra)
  
-### FreeCAD Setup
-
-**Selecting the GDML workbench**
+### Selecting/Activating the GDML workbench
 
 From the FreeCAD command bar select **View | Workbench** then select **GDML**
 
 ![Workbenches](https://github.com/KeithSloan/GDML/wiki/wiki_images/Workbenches.gif)
+
+### FreeCAD Setup for Workbench use.
 
 It is recommended that when you have the GDML workbench active that the following Toolbars are viewable
 
