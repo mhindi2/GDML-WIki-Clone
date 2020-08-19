@@ -81,6 +81,8 @@ To make a **Toolbar viewable**, from the FreeCAD command bar select **View | Too
 
 ### Exporting
 
+### Command line utilities
+
 ### Processing a Volume for subsequent Finite Element (FEM) Analysis 
 
 ### Installation
