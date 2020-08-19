@@ -5,12 +5,14 @@ Currently importing of large GDML files is problematic, it is uncertain if this 
 * Bugs in the Workbench
 * Bugs in FreeCAD
 
-There is an intention to profile the Workbench as a means of investigating but to-date this has not happened due to lack of time.
+There is an intention to profile the Workbench as a means of investigating but to-date this
+<br> has not happened due to lack of time.
 
 To mitigate the problems of loading large GDML files a **Scan facility** has been implemented.
 <br> The following is an attempt to illustrate the the **modus operandi** of using the Scan Facility.
 
-With the GDML workbench installed opening a GDML file will cause the following the following dialog prompt
+With the GDML workbench installed opening a GDML file will cause the following the following
+<br> dialog prompt
 <br>
 <p align="left">
   <img src="https://github.com/KeithSloan/GDML/wiki/wiki_images/Import_Dialog.png" width="650" height="500">
