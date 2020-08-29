@@ -78,14 +78,15 @@ To make a **Toolbar viewable**, from the FreeCAD command bar select **View | Too
 ### Export/Import - Materials XML files
 
 ### Mesh Operations
+### Exporting
 
 ### GDML - Multi Files
 
-ROOT only supports GDML defined in a single file, it does not support the required !ENTITIES.
-One option if you have such files is to open them with FreeCAD and then export with filetype gdml
+ROOT only supports GDML defined in a single file, as it does not support the required DOCTYPE !ENTITIES.
+<br>One option if you have such files is to open them with FreeCAD and then export with filetype gdml
+<br>this will export the loaded GDML files as a single GDML file.
 
-### Exporting
-
+Such files are supported by Geant4.
 
 ### Command line utilities
 
