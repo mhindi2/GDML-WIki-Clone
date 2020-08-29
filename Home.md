@@ -79,7 +79,13 @@ To make a **Toolbar viewable**, from the FreeCAD command bar select **View | Too
 
 ### Mesh Operations
 
+### GDML - Multi Files
+
+ROOT only supports GDML defined in a single file, it does not support the required !ENTITIES.
+One option if you have such files is to open them with FreeCAD and then export with filetype gdml.
+
 ### Exporting
+
 
 ### Command line utilities
 
