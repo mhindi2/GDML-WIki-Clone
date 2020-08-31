@@ -40,13 +40,13 @@ The **GDML Workbench** provides a number of facilities to
     * [Gmsh](https://gmsh.info)
     * Tetrahedron (This does not directly translate to GDML, but to a GDML Assembly of GDML Tetra)
  
-### FreeCAD Setup
-
-**Selecting the GDML workbench**
+### Selecting/Activating the GDML workbench
 
 From the FreeCAD command bar select **View | Workbench** then select **GDML**
 
 ![Workbenches](https://github.com/KeithSloan/GDML/wiki/wiki_images/Workbenches.gif)
+
+### FreeCAD Setup for Workbench use.
 
 It is recommended that when you have the GDML workbench active that the following Toolbars are viewable
 
@@ -63,9 +63,9 @@ To make a **Toolbar viewable**, from the FreeCAD command bar select **View | Too
 
 ### Importing Files
 
-* [Import GDML file](https//github.com/KeithSloan/GDML/wiki/import.md)
-* [Scan GDML file](https//github.com/KeithSloan/GDML/wiki/scan.md)
-* [Importing a STEP file](https//github.com/KeithSloan/GDML/wiki/importSTEP.md)
+* [Import GDML file](https://github.com/KeithSloan/GDML/wiki/import.md)
+* [Scan GDML file](https://github.com/KeithSloan/GDML/wiki/Scan_Facility) - Facility for dealing with large GDML files
+* [Importing a STEP file](https://github.com/KeithSloan/GDML/wiki/importSTEP.md)
 
 ### Viewing a GDML Model
 
@@ -78,8 +78,24 @@ To make a **Toolbar viewable**, from the FreeCAD command bar select **View | Too
 ### Export/Import - Materials XML files
 
 ### Mesh Operations
-
 ### Exporting
+
+### GDML - Multi Files
+
+ROOT only supports GDML defined in a single file, as it does not support the required DOCTYPE !ENTITIES.
+<br>One option if you have such files is to open them with FreeCAD and then export with filetype gdml
+<br>this will export the loaded GDML files as a single GDML file.
+
+Such files are supported by Geant4.
+
+### STEP files
+
+When exporting STEP files that include GDML objects set the FreeCAD Preference for Export to
+use legacy exporter
+
+![Export STEP](https://github.com/KeithSloan/GDML/wiki/wiki_images/STEP-Export.png)
+
+### Command line utilities
 
 ### Processing a Volume for subsequent Finite Element (FEM) Analysis 
 
