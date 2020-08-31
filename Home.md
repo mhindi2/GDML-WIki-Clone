@@ -93,6 +93,8 @@ Such files are supported by Geant4.
 When exporting STEP files that include GDML objects set the FreeCAD Preference for Export to
 use legacy exporter
 
+![Export STEP](https://github.com/KeithSloan/GDML/wiki/wiki_images/STEP-Export.png)
+
 ### Command line utilities
 
 ### Processing a Volume for subsequent Finite Element (FEM) Analysis 
