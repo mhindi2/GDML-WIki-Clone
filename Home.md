@@ -88,6 +88,11 @@ ROOT only supports GDML defined in a single file, as it does not support the req
 
 Such files are supported by Geant4.
 
+### STEP files
+
+When exporting STEP files that include GDML objects set the FreeCAD Preference for Export to
+use legacy exporter
+
 ### Command line utilities
 
 ### Processing a Volume for subsequent Finite Element (FEM) Analysis 
