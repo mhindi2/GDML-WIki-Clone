@@ -81,7 +81,7 @@ To make a **Toolbar viewable**, from the FreeCAD command bar select **View | Too
 
 ### Exporting
 
-To export a GDML select the root **Part** ( GDML World Volume ) then use the standard FreeCAD export
+To export a GDML file, select the root **Part** ( GDML World Volume ) then use the standard FreeCAD export
 facility ( File | Export )
 
 #### Single GDML file
@@ -91,6 +91,7 @@ If a filetype of **gdml** is selected a single GDML file is produced.
 If a filetype of **GDML** is selected then the following files are created in a directory derived from the path name less the GDML file extension.
      
    * A [Name].gdml with imbeds for the following xml files
+   * setup.xml
    * constants.xml
    * defines.xml
    * materials.xml
