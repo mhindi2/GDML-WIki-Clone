@@ -78,13 +78,34 @@ To make a **Toolbar viewable**, from the FreeCAD command bar select **View | Too
 ### Export/Import - Materials XML files
 
 ### Mesh Operations
+
 ### Exporting
+
+To export a GDML select the root **Part** ( GDML World Volume ) then use the standard FreeCAD export
+facility ( File | Export )
+
+#### Single GDML file
+If a filetype of **gdml** is selected a single GDML file is produced.
+
+#### Multi GDML file
+If a filetype of **GDML** is selected then the following files are created in a directory derived from the path name less the GDML file extension.
+     
+   * A [Name].gdml with imbeds for the following xml files
+   * constants.xml
+   * defines.xml
+   * materials.xml
+   * [Name]-solids.xml
+   * [Name]-structure.xml
+
+Note: Provided you have the lxml python library installed, you should be able to successfully open the [Name].gdml file 
 
 ### GDML - Multi Files
 
 ROOT only supports GDML defined in a single file, as it does not support the required DOCTYPE !ENTITIES.
-<br>One option if you have such files is to open them with FreeCAD and then export with filetype gdml
-<br>this will export the loaded GDML files as a single GDML file.
+
+There are two options
+ 
+1. Open the multi file with the workbench and then One option if you have such files is to open them with FreeCAD and then export with as a single GDML file.
 
 Such files are supported by Geant4.
 
