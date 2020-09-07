@@ -79,7 +79,7 @@ To make a **Toolbar viewable**, from the FreeCAD command bar select **View | Too
 
 ### Mesh Operations
 
-### Exporting
+### Exporting GDML files
 
 To export a GDML file, select the root **Part** ( GDML World Volume ) then use the standard FreeCAD export
 facility ( File | Export )
