@@ -105,9 +105,12 @@ ROOT only supports GDML defined in a single file, as it does not support the req
 
 There are two options
  
-1. Open the multi file with the workbench and then One option if you have such files is to open them with FreeCAD and then export with as a single GDML file.
+1. Open the multi file with the workbench and then export with as a single GDML file.
+2. Use the standalone python program supplied in **Utils** 
 
-Such files are supported by Geant4.
+      **combineGDML.py [input file with imbeds] [output single file]** 
+
+Such multi files are supported by **Geant4.**
 
 ### STEP files
 
