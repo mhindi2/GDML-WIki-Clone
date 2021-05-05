@@ -77,6 +77,23 @@ To make a **Toolbar viewable**, from the FreeCAD command bar select **View | Too
 
 ### Export/Import - Materials XML files
 
+When creating a new file from the GDML workbench the file Defaults.gdml is read from the Resources directory,
+this may or may not have material definitions, as supplied there are none.
+
+A Materials Group called Geant4 is created by reading the file Geant4Materials.xml from the Resources directory
+which define all the materials that GEANT4 implicitly defines by default.
+
+When a file is exported the the materials in the geant4 group are ignored as GEANT4 implicitly defines these.
+
+If you need the Geant4 materials for use in a none GEANT4 situation, for example ROOT, then one option is to 
+
+   * Select the geant4 group.
+   * export as an xml file
+   * import the xml file
+
+This should add the materials in the main materials definitions which should be exported in any subsequent
+GDML exports
+
 ### Mesh Operations
 
 ### Exporting GDML files
