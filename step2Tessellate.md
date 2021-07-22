@@ -5,7 +5,7 @@ The following is a suggested workflow for dealing with STEP file
 2. Create a new file ( FreeCAD | File | New )
 This should create a file with the following structure
 
-![NewFile](https://github.com/KeithSloan/GDML/wiki/wiki_images/NewFile.jpeg)
+![NewFile](https://github.com/KeithSloan/GDML/wiki/wiki_images/NewFile.jpg)
 
 3. Create a New Part under the World Volume
 4. Having selected the Part import the STEP file
