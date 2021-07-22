@@ -1,6 +1,6 @@
 # Converting a STEP file to GDML Tessellated Objects.
 
-The following is a suggested workflow for dealing with STEP file
+The following is a suggested workflow for dealing with a STEP file
 1. Activate the GDML workbench
 2. Create a new file ( FreeCAD | File | New )
 This should create a file with the following structure
