@@ -68,7 +68,7 @@ To make a **Toolbar viewable**, from the FreeCAD command bar select **View | Too
 
 ### Importing a STEP file and creating GDML Tessellated Objects
 
-* [Dealing with STEP files](https://github.com/KeithSloan/GDML/wiki/step2Tessellate)
+* [Dealing with STEP files](https://github.com/KeithSloan/GDML/wiki/Step2Tessellate)
 
 ### Viewing a GDML Model
 
