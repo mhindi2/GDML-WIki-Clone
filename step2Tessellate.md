@@ -10,9 +10,7 @@ You can set the FreeCAD general import Options for STEP to import as one compoun
 5. You then need to Tessellate the Objects via following Icons/Commands
 > * Tessellate
 > * Tessellate via Gmsh
-> * Using the Mesh Workbench which has a number of meshing options
->> * Gmsh
->> * NetgenThen converting the Mesh to a Tessellated Object using the Mesh2Tess Command/Icon
+> * Using the Mesh Workbench [
 5. You can set the objects material either via the properties window or selecting the material before the Tessellation operation
 6. When you are happy with the Tessellation you can delete the original STEP object.
 7. You need to end up with the following structure
