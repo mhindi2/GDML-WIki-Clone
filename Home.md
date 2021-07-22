@@ -66,7 +66,7 @@ To make a **Toolbar viewable**, from the FreeCAD command bar select **View | Too
 * [Import GDML file](https://github.com/KeithSloan/GDML/wiki/import.md)
 * [Scan GDML file](https://github.com/KeithSloan/GDML/wiki/Scan_Facility) - Facility for dealing with large GDML files
 
-### Importing a STEP and creating GDML Tessellated Objects
+### Importing a STEP file and creating GDML Tessellated Objects
 
 * [Dealing with STEP files](https://github.com/KeithSloan/GDML/wiki/step2Tessellate)
 
