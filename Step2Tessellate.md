@@ -15,9 +15,10 @@ You can set the FreeCAD general import Options for STEP to import as one compoun
 > * Tessellate via Gmsh
 > * [Using the Mesh Workbench](https://github.com/KeithSloan/GDML/wiki/UsingMeshWorkBench)
 6. There is also the option of simplifying the Mesh with FreeCAD's mesh decimate facility 'Decimate Selected Object' Command/Icon 
-7. You can set the objects material either via the properties window or selecting the material before the Tessellation operation
+7. You can set the objects material either via the properties window or selecting the material before the Tessellation operation.
 8. When you are happy with the Tessellation you can delete the original STEP object.
-. You need to end up with the following structure 
+
+You need to end up with the following structure 
 >> World Volume
 >> * A number of Parts under the World Volume.
 >> * Each Part containing a GDML Tessellated Object.
