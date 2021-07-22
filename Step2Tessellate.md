@@ -21,4 +21,10 @@ You can set the FreeCAD general import Options for STEP to import as one compoun
 >> World Volume
 >> * A number of Parts under the World Volume.
 >> * Each Part containing a GDML Tessellated Object.
+
+If your structure is not as advised you can always drag FreeCAD objects around in the Tree View i.e Parts to World Volume,
+Tessellated Objects to Parts etc.
+
+If necessary you can alter the position of GDML Tessellated Objects by changing its parent Parts, Position & Rotation.
+
 9. You can now export the GDML file by selecting the World Volume and using File | Export and selecting GDML as the file type.  
