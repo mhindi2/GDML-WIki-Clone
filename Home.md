@@ -121,6 +121,8 @@ This should add the materials in the main materials definitions which should be 
 GDML exports
 
 ### Mesh Operations
+
+## FreeCAD Objects (Non-GDML)
 **FreeCAD** has some Solid Graphic Objects in its Parts Workbench but they are a very limited set
 <br> compared to GDML. The normal way to create CAD models with CAD software like FreeCAD is to 
 <br> create sketches that one then
