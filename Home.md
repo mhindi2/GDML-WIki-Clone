@@ -5,7 +5,8 @@
 Geometry Description Markup Language (GDML) is a specialized XML-based language used to specify
 <br>Geometries for Monte Carlo Simulation software such as ROOT, Geant4, etc see [GDML Manual](https://gdml.web.cern.ch/GDML/doc/GDMLmanual.pdf).
 
-It defines a rich set of Solid Computer Graphic Objects.
+It defines a rich set of Solid Computer Graphic Objects for details of
+[GDML Solids](http://geant4-userdoc.web.cern.ch/geant4-userdoc/UsersGuides/ForApplicationDeveloper/html/Detector/Geometry/geomSolids.html)
 
 The **GDML Workbench** lets the user
 
