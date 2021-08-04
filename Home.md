@@ -18,29 +18,7 @@ The **GDML Workbench** lets the user
 
 Such Geometries.
 
-**FreeCAD** has some Solid Graphic Objects in its Parts Workbench but they are a very limited set
-<br> compared to GDML. The normal way to create CAD models with CAD software like FreeCAD is to 
-<br> create sketches that one then
 
-* Pockets
-* Extrudes
-* Rotates
-* etc
-
-The results of which are BREP (Boundary Representation) Shapes rather than Solid Graphic Objects.
-<br> To translate the BREP Shapes to GDML one needs to create **GDML Tessellate shapes** from the BREP Shapes
-<br> or use some software like [McCad](https://github.com/inr-kit/McCad-Salome-Binaries) to decompose the BREP Shapes into GDML Objects.
-
-The **GDML Workbench** provides a number of facilities to
-
-* Export FreeCAD(BREP) shapes as GDML Tessellated Objects.
-* Allocate a GDML Material and directly Convert a FreeCAD(BREP) Shape to a GDML Tessellated Object
-<br> using a number of different algorithms
-
-    * Standard FreeCAD mesh facilties
-    * [Gmsh](https://gmsh.info)
-    * Tetrahedron (This does not directly translate to GDML, but to a GDML Assembly of GDML Tetra)
- 
 ### Selecting/Activating the GDML workbench
 
 From the FreeCAD command bar select **View | Workbench** then select **GDML**
@@ -61,6 +39,50 @@ So Icons displayed should look similar to the following
 ![Icons](https://github.com/KeithSloan/GDML/wiki/wiki_images/Icons.jpeg)
 
 To make a **Toolbar viewable**, from the FreeCAD command bar select **View | Toolbars**
+
+## GDML Objects / Solids
+
+### GDML Solids
+
+GDML Solids are implemented as FreeCAD Python Objects and have the same properties as defined by GDML. By selecting an Object the properties can be changed via the FreeCAD properties windows and the resulting changes displayed.
+
+### GDML Objects Currently Supported for creation via the GUI are
+
+#### GDMLBox 
+![GDML_Box-Icon](https://github.com/KeithSloan/GDML/wiki/wiki_images/GDML_Box_mauve_blackline.svg)
+_Short decription_
+
+#### GDMLCone
+![GDML_Clone-Icon](https://github.com/KeithSloan/GDML/wiki/wiki_images/GDML_Polycone_Mauve_blackline.svg)
+_Short decription_
+
+#### GDMLElTube
+![GDML_EllipticalTube-Icon](https://github.com/KeithSloan/GDML/wiki/wiki_images/GDML_EllipticalTube_Mauve_blackline.svg)
+_Short decription_
+
+#### GDMLEllipsoid
+![GDML_Ellipsoid-Icon](https://github.com/KeithSloan/GDML/wiki/wiki_images/GDML_Ellipsoid_Mauve_blackline.svg)
+_Short decription_
+
+#### GDMLSphere
+![GDML_Sphere-Icon](https://github.com/KeithSloan/GDML/wiki/wiki_images/GDML_Sphere_mauve.svg)
+_Short decription_
+
+#### GDMLTrap
+![GDML_Trapezoid-Icon](https://github.com/KeithSloan/GDML/wiki/wiki_images/GDML_Trapezoid_Mauve_blackline.svg)
+_Short decription_
+
+#### GDMLTube
+![GDML_Tube-Icon](https://github.com/KeithSloan/GDML/wiki/wiki_images/GDML_Tube_mauve_blackline.svg)
+_Short decription_
+
+Given a lot more solids are supported for import, it is not too difficult to add more,
+so if you feel you need a particular solid to be added please contact me.
+
+### Boolean Operations
+
+Select two Parts/Logical Volumes and then click on the appropriate boolean icon
+
 
 ### Importing Files
 
@@ -100,6 +122,30 @@ GDML exports
 
 ### Mesh Operations
 
+## FreeCAD Objects (Non-GDML)
+**FreeCAD** has some Solid Graphic Objects in its Parts Workbench but they are a very limited set
+<br> compared to GDML. The normal way to create CAD models with CAD software like FreeCAD is to 
+<br> create sketches that one then
+
+* Pockets
+* Extrudes
+* Rotates
+* etc
+
+The results of which are BREP (Boundary Representation) Shapes rather than Solid Graphic Objects.
+<br> To translate the BREP Shapes to GDML one needs to create **GDML Tessellate shapes** from the BREP Shapes
+<br> or use some software like [McCad](https://github.com/inr-kit/McCad-Salome-Binaries) to decompose the BREP Shapes into GDML Objects.
+
+The **GDML Workbench** provides a number of facilities to
+
+* Export FreeCAD(BREP) shapes as GDML Tessellated Objects.
+* Allocate a GDML Material and directly Convert a FreeCAD(BREP) Shape to a GDML Tessellated Object
+<br> using a number of different algorithms
+
+    * Standard FreeCAD mesh facilties
+    * [Gmsh](https://gmsh.info)
+    * Tetrahedron (This does not directly translate to GDML, but to a GDML Assembly of GDML Tetra)
+ 
 ### Exporting GDML files
 
 To export a GDML file, select the root **Part** ( GDML World Volume ) then use the standard FreeCAD export
@@ -145,4 +191,4 @@ use legacy exporter
 
 ### Processing a Volume for subsequent Finite Element (FEM) Analysis 
 
-### Installation
+### Installation - For Installation see the [README](https://github.com/KeithSloan/GDML#readme) 
