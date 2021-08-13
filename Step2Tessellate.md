@@ -39,4 +39,13 @@ Tessellated Objects to Parts etc.
 
 If necessary you can alter the position of GDML Tessellated Objects by changing its parent Parts, Position & Rotation.
 
-9. You can now export the GDML file by selecting the World Volume and using File | Export and selecting GDML as the file type.  
+9. You can now export the GDML file by selecting the World Volume and using File | Export and selecting GDML as the file type. 
+
+## Trouble shooting
+If you have problems with your Tessellated Object this may be due to how the Mesh was created.
+It is suggested that you check the undelying mesh as follows
+1. Use **Tess2Mesh** to convert your GDML Object to a FreeCAD mesh.
+2. Switch to the Mesh Design workbench
+3. Use the tool/icon to analyse and repair a mesh
+   - You may have to make several passes depending on the problem
+4. When happy with the mesh use the GDML Workbench icon/tool **Mesh 3 Tess** to convert the mesh back to GDML Tessellated Object
