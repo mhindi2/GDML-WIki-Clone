@@ -10,7 +10,7 @@ This should create a file with the following structure
 3. Create a New Part under the World Volume.
 4. Having selected the Part import the STEP file
 You can set the FreeCAD general import Options for STEP to import as one compound object or separate objects.
-5. You then need to Tessellate the Objects via following Icons/Commands
+5. You then need to Tessellate the Objects via any of the following Icons/Commands
 > * **Tessellate**. 
 
 ![Tessellate](https://github.com/KeithSloan/GDML/wiki/wiki_images/GDML_Tessellate.svg)
@@ -18,7 +18,13 @@ You can set the FreeCAD general import Options for STEP to import as one compoun
 
 ![TessellateGmsh](https://github.com/KeithSloan/GDML/wiki/wiki_images/GDML_Tessellate_Gmsh.svg)
 
-> * [Using the Mesh Workbench](https://github.com/KeithSloan/GDML/wiki/UsingMeshWorkBench) to mesh an Object, then to convert the Mesh to a GDML Tessellated Object using. 
+> * [Using the Mesh Design Workbench](https://github.com/KeithSloan/GDML/wiki/UsingMeshWorkBench) to mesh an Object, then to convert the Mesh to a GDML Tessellated Object using.
+The Mesh Design Workbench offers a number of facilities for Meshing an Object
+    
+    - Standard
+    - Mefisto
+    - Netgen
+    - gmsh
 
 ![Mesh2Tess](https://github.com/KeithSloan/GDML/wiki/wiki_images/GDML_Mesh2Tess.svg)  
 6. There is also the option of simplifying the Mesh with FreeCAD's mesh decimate facility
