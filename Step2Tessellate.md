@@ -47,6 +47,8 @@ If necessary you can alter the position of GDML Tessellated Objects by changing 
 
 9. You can now export the GDML file by selecting the World Volume and using File | Export and selecting GDML as the file type. 
 
+## Avoiding Potentially overlapping shapes in Geant4 analysis
+If there are shapes of different materials that end up touching, one approach would be to adjust one of their sizes by a very small amount using the Part::Offset tool in the Part Workbench. An Alternative would be to use the OpenSCAD workbench to perform a Minkowski operation with one of the shapes and a very small sphere or cube.
 ## Trouble shooting
 If you have problems with your Tessellated Object this may be due to how the mesh was created.
 It is suggested that you check the undelying mesh as follows
