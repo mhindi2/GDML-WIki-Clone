@@ -26,8 +26,10 @@ The Mesh Design Workbench offers a number of facilities for Meshing an Object
     - Netgen
     - gmsh
 
+> * **Convert the Mesh to a Tessellated Object**
+
 ![Mesh2Tess](https://github.com/KeithSloan/GDML/wiki/wiki_images/GDML_Mesh2Tess.svg)  
-Convert the Mesh to a Tessellated Object
+
 
 6. There is also the option of simplifying the Mesh with FreeCAD's mesh decimate facility
 '**Decimate Selected Object**' Command/Icon. 
