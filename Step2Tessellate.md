@@ -10,7 +10,7 @@ This should create a file with the following structure
 3. Create a New Part under the World Volume.
 4. Having selected the Part import the STEP file
 You can set the FreeCAD general import Options for STEP to import as one compound object or separate objects.
-5. You then need to Tessellate the Objects via any of the following Icons/Commands
+5. You then need to Tessellate the Objects and set its GDMLmaterial via any of the following Icons/Commands
 > * **Tessellate**. 
 
 ![Tessellate](https://github.com/KeithSloan/GDML/wiki/wiki_images/GDML_Tessellate.svg)
