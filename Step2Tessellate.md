@@ -51,6 +51,14 @@ If necessary you can alter the position of GDML Tessellated Objects by changing 
 
 9. You can now export the GDML file by selecting the World Volume and using File | Export and selecting GDML as the file type. 
 
+## STEP files with Colour
+If your STEP files have Objects with colour information you can use a Colour to Material mapping facility to set an Objects GDML material.
+Click on 
+
+![Col2Mat](https://github.com/KeithSloan/GDML/wiki/wiki_images/GDMLColourMapFeature.svg)
+
+This will open a window that list the colours used in the FreeCAD document and allows them to be allocated to a GDML material.
+
 ## Avoiding Potentially overlapping shapes in Geant4 analysis
 If there are shapes of different materials that end up touching, one approach would be to adjust one of their sizes by a very small amount using the Part::Offset tool in the Part Workbench. An Alternative would be to use the OpenSCAD workbench to perform a Minkowski operation with one of the shapes and a very small sphere or cube.
 ## Trouble shooting
