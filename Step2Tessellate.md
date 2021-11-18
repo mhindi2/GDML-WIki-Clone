@@ -42,7 +42,7 @@ The Mesh Design Workbench offers a number of facilities for Meshing an Object
 You need to end up with the following structure 
 >> World Volume
 >> * A number of Parts under the World Volume.
->> * Each Part containing a GDML Tessellated Object.
+>> * Each Part containing a **single** GDML Tessellated Object.
 
 If your structure is not as advised you can always drag FreeCAD objects around in the Tree View i.e Parts to World Volume,
 Tessellated Objects to Parts etc.
