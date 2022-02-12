@@ -7,7 +7,7 @@ The GDML workbench now supports creating a GDML object from a FreeCAD sketch cur
 ### Document structure
 * Extrusion should be in a single GDML volume (FreeCAD Part)
 ### Allocated Material
-suggestion is to use toolbar 'Set Material' facility.
+Suggestion is to use toolbar 'Set Material' facility.
 ### On GDML Export
 * The extruded sketch is processed to create a series of booleans of GDML solids.
 * import of the exported file will show the booleans and structure in the FreeCAD Treeview
@@ -19,5 +19,6 @@ suggestion is to use toolbar 'Set Material' facility.
 
 
 ### Examples of simulation of extruded sketches versus same objects Tessellated
+[Timing comparisons - Booleans versus Tessellated](https://github.com/KeithSloan/GDML/wiki/Extruded-sketches-timing-comparisons)
 
 
