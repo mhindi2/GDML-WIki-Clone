@@ -10,7 +10,7 @@ The GDML workbench now supports creating a GDML object from a FreeCAD sketch cur
 Suggestion is to use toolbar 'Set Material' facility.
 ### On GDML Export
 * The extruded sketch is processed to create a series of booleans of GDML solids.
-* import of the exported file will show the booleans and structure in the FreeCAD Treeview
+* Import of the exported file will show the booleans and structure in the FreeCAD Treeview
 ### Display in GEANT4
 * Some objects will only display as point clouds, this is due to limitations in Geant4 ablity to display certain forms, it does not affect any simulation
 * "solution" is to display everything as a cloud by issuing
