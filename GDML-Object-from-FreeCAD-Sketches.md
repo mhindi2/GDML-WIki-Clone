@@ -20,6 +20,6 @@ Suggestion is to use toolbar 'Set Material' facility.
 
 
 ### Examples of simulation of extruded sketches versus same objects Tessellated
-[Timing comparisons - Booleans versus Tessellated](https://github.com/KeithSloan/GDML/wiki/Extruded-sketches-timing-comparisons)
+Examples and [Timing comparisons - Booleans versus Tessellated](https://github.com/KeithSloan/GDML/wiki/Extruded-sketches-timing-comparisons)
 
 
