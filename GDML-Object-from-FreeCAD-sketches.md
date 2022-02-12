@@ -1,7 +1,8 @@
-### Facility
-The GDML workbench now supports creating a GDML object from a FreeCAD sketch currently
+### Export of FreeCAD sketches as GDML objects.
+The GDML workbench now supports creating a GDML object from a FreeCAD Sketch currently
 * Extrusion
 * Revolution (In development )
+* Sketches with Bezier curves In development
 ### Restrictions
 * Sketch should be made in the X-Y Plane ( Created Objects can be rotated )
 ### Document structure
