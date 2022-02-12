@@ -13,6 +13,11 @@ suggestion is to use toolbar 'Set Material' facility.
 * import of the exported file will show the booleans and structure in the FreeCAD Treeview
 ### Display in GEANT4
 * Some objects will only display as point clouds, this is due to limitations in Geant4 ablity to display certain forms, it does not affect any simulation
+* "solution" is to display everything as a cloud by issuing
+
+/vis/viewer/set/style cloud
+
+
 ### Examples of simulation of extruded sketches versus same objects Tessellated
 
 
