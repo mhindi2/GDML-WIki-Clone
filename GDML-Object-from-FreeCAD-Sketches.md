@@ -17,6 +17,5 @@ Suggestion is to use toolbar ****Set Material**** facility.
 
 /vis/viewer/set/style cloud
 ### Examples of simulation of extruded sketches versus same objects tessellated
-Examples and [Timing comparisons](https://github.com/KeithSloan/GDML/wiki/Extruded-sketches-timing-comparisons) exported sketches using booleans versus same objects tessellated
 
 
