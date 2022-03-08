@@ -1,8 +1,7 @@
 ### Export of FreeCAD sketches as GDML objects.
 The GDML workbench now supports creating a GDML object from a FreeCAD Sketch currently
-* Extrusion
-* Revolution
-* Sketches with Bezier curves (In development)
+* [Extrusion - example](https://github.com/KeithSloan/GDML/wiki/Extrude--:-Examples-of-Extruded-sketches--with-timing-comparison)
+* [Revolution - example](https://github.com/KeithSloan/GDML/wiki/Revolved-:-Examples-of-Revolved-sketches)
 ### Restrictions
 * Sketch should be made in the X-Y Plane ( Created Objects can be rotated )
 ### Document structure
@@ -17,8 +16,6 @@ Suggestion is to use toolbar ****Set Material**** facility.
 * ****Solution**** is to display everything as a cloud by issuing
 
 /vis/viewer/set/style cloud
-
-
 ### Examples of simulation of extruded sketches versus same objects tessellated
 Examples and [Timing comparisons](https://github.com/KeithSloan/GDML/wiki/Extruded-sketches-timing-comparisons) exported sketches using booleans versus same objects tessellated
 
