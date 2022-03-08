@@ -1,6 +1,6 @@
 ### Export of FreeCAD sketches as GDML objects.
 The GDML workbench now supports creating a GDML object from a FreeCAD Sketch currently
-* [Extrusion - example](https://github.com/KeithSloan/GDML/wiki/Extrude--:-Examples-of-Extruded-sketches--with-timing-comparison)
+* [Extrusion - example](https://github.com/KeithSloan/GDML/wiki/Extrude--:-Examples-of-Extruded-sketches)
 * [Revolution - example](https://github.com/KeithSloan/GDML/wiki/Revolved-:-Examples-of-Revolved-sketches)
 ### Restrictions
 * Sketch should be made in the X-Y Plane ( Created Objects can be rotated )
