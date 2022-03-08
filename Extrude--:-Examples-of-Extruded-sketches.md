@@ -1,4 +1,6 @@
-# Comparison Timings 
+## GDML Objects can be created by extruding a FreeCAD sketch
+When exported the GDML Object will be created from a series of booleans
+## Comparison Timings 
 Timing for extruded sketches, exported as Booleans of solids versus being Tessellated
 ## Displayed in Geant4
 ### Booleans from extruded sketch
