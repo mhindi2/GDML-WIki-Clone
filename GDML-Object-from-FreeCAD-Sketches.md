@@ -16,6 +16,6 @@ Suggestion is to use toolbar ****Set Material**** facility.
 * ****Solution**** is to display everything as a cloud by issuing
 
 /vis/viewer/set/style cloud
-### Examples of simulation of extruded sketches versus same objects tessellated
+
 
 
