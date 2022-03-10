@@ -4,6 +4,7 @@ The GDML workbench now supports creating a GDML object from a FreeCAD Sketch cur
 * [Revolution - example](https://github.com/KeithSloan/GDML/wiki/Revolved-:-Examples-of-Revolved-sketches)
 ### Restrictions
 * Sketch should be made in the X-Y Plane ( Created Objects can be rotated )
+* Extrusion & Revolutions should be on the z-axis
 ### Document structure
 * Extrusion should be in a single GDML volume (FreeCAD Part)
 ### Allocated Material
