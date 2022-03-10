@@ -5,7 +5,7 @@ The following types of Array's are supported
 * Polar
 * Circular
 
-Currently not supported but maybe added in the future
+The following are currently NOT supported but maybe added in the future
 * Various Path Arrays
 * Point Point Arrays
 
