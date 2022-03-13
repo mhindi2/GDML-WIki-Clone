@@ -142,6 +142,18 @@ The **GDML Workbench** provides a number of facilities to
 
 Shapes created by the **Sketch Workbench** and extruded via the **Part** Extrude command can be exported to GDML. The exrusion must be added to a Part under the worldVol tree. Currently extrusion exports have the following limitations: (1) only extrusions along the z-axis are supported (i.e., the sketches must be in the x-y plane). Note that this does not pose a real limitation, since the extrusion object itself can be rotated or translated to any desired orientation or location. (2) Arcs/elliptical whose chords are crossed by lines (or other arcs) cannot currently be processed. Arcs/lines that are completely inside or outside other arcs, are supported, though. Examples of Extruded sketches are in [Extruded sketches examples](https://github.com/KeithSloan/GDML/wiki/Extrude--:-Examples-of-Extruded-sketches)
 
+Technical Notes: extrusions are exported as a sequence of booleans of intrinsic GDML objects. BSplines are discretized as a sequence lines and exported as an <xtru solid. The exported xtru can be made smoother (more points) as follows: select the extrusion object, then select its View property Panel. Right click on the Display Options header and check the 'Show All' check box. This will reveal additional properties that can be set. One of them is 'deviation', which defaults to 0.5 (%). Decrease that nummber to get smoother curves. You may increase it to get coarser curves. **FreeCAD** does not support Deviation values larger than 0.5, but the GDML extruder can use larger values.
+
+Tests comparing the performance of geant simulations with extuded sketches vs their tesselated versions have shown the extrusions to be 2-5 times faster than their tessellations.
+
+#### Revolved sketches
+
+Shapes created by the **Sketch Workbench** and revolved via the **Part** Revolve command can be exported to GDML. The revolution must be added to a Part under the worldVol tree. Currently revolution exports have the following limitations: (1) only revolutions around the z-axis are supported and (2) the sketches **must** be in the x-z plane. Note that this does not pose a real limitation, since the revolved object itself can be rotated or translated to any desired orientation or location. Examples of revolved sketches are in [Revolved sketches examples](https://github.com/KeithSloan/GDML/wiki/Revolved-:-Examples-of-Revolved-sketches)
+
+Technical Note: All curves in a revolved sketch, except circles, are discretized and exproted as <polycone's. Circles are exported as a torus. Booleans of these are used to fully construct the revolved sketch. The smoothness of the discretization can be changes as described above, under **Extruded sketches**.
+
+
+
  
 ### Exporting GDML files
 
