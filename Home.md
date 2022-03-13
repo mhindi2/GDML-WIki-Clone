@@ -123,18 +123,8 @@ GDML exports
 ### Mesh Operations
 
 ## FreeCAD Objects (Non-GDML)
-**FreeCAD** has some Solid Graphic Objects in its Parts Workbench but they are a very limited set
-<br> compared to GDML. The normal way to create CAD models with CAD software like FreeCAD is to 
-<br> create sketches that one then
-
-* Pockets
-* Extrudes
-* Rotates
-* etc
-
-The results of which are BREP (Boundary Representation) Shapes rather than Solid Graphic Objects.
-<br> To translate the BREP Shapes to GDML one needs to create **GDML Tessellate shapes** from the BREP Shapes
-<br> or use some software like [McCad](https://github.com/inr-kit/McCad-Salome-Binaries) to decompose the BREP Shapes into GDML Objects.
+In addition to the GDML solids, the **GDML Workbench** supports the export of a subset of the solids one can create in the **FreeCAD** Parts Workbench. These are documented below. For those shapes not directly supported for export, the recommended way to proceed is to
+take the resulting BREP (Boundary Representation) Shape and then translate it to a **GDML Tessellate**, or use some software like [McCad](https://github.com/inr-kit/McCad-Salome-Binaries) to decompose the BREP Shapes into GDML Objects.
 
 The **GDML Workbench** provides a number of facilities to
 
@@ -145,6 +135,13 @@ The **GDML Workbench** provides a number of facilities to
     * Standard FreeCAD mesh facilties
     * [Gmsh](https://gmsh.info)
     * Tetrahedron (This does not directly translate to GDML, but to a GDML Assembly of GDML Tetra)
+
+### Part Objects directly exportable to GDML
+(_Note some of these are currently only supported in the Beta2 branch_)
+#### Extruded Sketches
+
+Shapes created by the **Sketch Workbench** and extruded via the **Part** Extrude command can be exported to GDML. The exrusion must be added to a Part under the worldVol tree. Currently extrusion exports have the following limitations: (1) only extrusions along the z-axis are supported (i.e., the sketches must be in the x-y plane). Note that this does not pose a real limitation, since the extrusion object itself can be rotated or translated to any desired orientation or location. (2) Arcs/elliptical whose chords are crossed by lines (or other arcs) cannot currently be processed. Arcs/lines that are completely inside or outside other arcs, are supported, though. Examples of Extruded sketches are in [Extruded sketches examples](https://github.com/KeithSloan/GDML/wiki/Extrude--:-Examples-of-Extruded-sketches)
+
  
 ### Exporting GDML files
 
