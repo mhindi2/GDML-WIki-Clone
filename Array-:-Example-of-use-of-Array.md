@@ -3,7 +3,6 @@
 The following types of Array's are supported
 * Orthogonal
 * Polar
-* Circular
 
 The following are currently NOT supported but maybe added in the future
 * Various Path Arrays
