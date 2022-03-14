@@ -146,13 +146,29 @@ Technical Notes: extrusions are exported as a sequence of booleans of intrinsic 
 
 Tests comparing the performance of geant simulations with extuded sketches vs their tesselated versions have shown the extrusions to be 2-5 times faster than their tessellations.
 
-#### Revolved sketches
+#### Revolved Sketches
 
 Shapes created by the **Sketch Workbench** and revolved via the **Part** Revolve command can be exported to GDML. The revolution must be added to a Part under the worldVol tree. Currently revolution exports have the following limitations: (1) only revolutions around the z-axis are supported and (2) the sketches **must** be in the x-z plane. Note that this does not pose a real limitation, since the revolved object itself can be rotated or translated to any desired orientation or location. Examples of revolved sketches are in [Revolved sketches examples](https://github.com/KeithSloan/GDML/wiki/Revolved-:-Examples-of-Revolved-sketches)
 
-Technical Note: All curves in a revolved sketch, except circles, are discretized and exproted as <polycone's. Circles are exported as a torus. Booleans of these are used to fully construct the revolved sketch. The smoothness of the discretization can be changes as described above, under **Extruded sketches**.
+Technical Note: All curves in a revolved sketch, except circles, are discretized and exproted as <polycone's. Circles are exported as a torus. Booleans of these are used to fully construct the revolved sketch. The smoothness of the discretization can be changed as described above, under **Extruded Sketches**.
 
+#### Arrays of Objects
 
+Arrays of objects, constructed under the Draft Array command, or the GDML Array command can be exported as GDML objects. The arrays must be of currently supported objects (GDML, or Part objects, such as extrusions, or revolutions). Arrays of arrays can also be exported. Currently the following types of arrays are supported:
+* Ortho(gonal) arrays
+* Polar arrays
+In the future other types of arrays will be supported.
+
+The Array object must be added to a Part under the WorldVolume tree.
+Note that the array object is exported as a **single** multiUnion gdml solid. Thus the objects in the array are considered as part of **one** solid, and hence have **one** material. It is best practice to assign the material to the Array object. If a material is not assigned to the Array object itself, its (sub)objects are scanned recursivley and the material of the first object that does have a material property is selected.
+
+#### Mirrored Objects
+
+A mirror of a GDML exportable object (including extrusions, revolutions, arrays) can be created and exported; either using the Draft mirror command, or or the provided GDML short cut. At present the mirrored iobjects (both the original object and its mirror image are exported in a gdml <assembly. They both share the original volume and hence will have the same material. Examples are in [Mirror examples](https://github.com/KeithSloan/GDML/wiki/Mirror-:-Examples-of-use-of-Mirror). Note that in FreeCAD when a mirrored object is itself mirrored, one only get an additional mirror of the mirrored object, not additionaly a mirror of the original object.
+
+#### Scaled Objects
+
+A scaled copy of an exportable object can be exported. The scaling of GDML solids (as opposed to Part shapes, that are **not** GDML Solids), can be scaled using the Scale Command icon provided with in the **GDML Workbench**. This command adds a scale property to each of the selected solids; no additional objects are created. In contrast, the Draft scaling operation creates a separate object (must be a clone) that carries the scaling information, while the original object remains in the tree. To export the scaled object, the clone must be added to a Part that is under the WorldVolume tree, while the original object must be **outside** tha tree (but not deleted, as the clone refers to it). If multiple objects are selected and scaled using the Draft scale operation, all those objects become part of the clone and are exported as GDML multiUnion, and hence will have one and the same material. That material is best assigned to the clone object, but, as in the case of other composite objects, if a material is not provided, the sub-objects will be searched recursively until one is found with a material property, then that material is assigned to the multiUnion. Otherwise a default material (currently G4_STAINLESS-STEEL) will be assigned. A peculiarity of the Draft scale operation is that its placement (rotation and position) are copied from the scaled object, in the case of scaling a single object, and set to the identiy placement in the case of scaling several objects. In either case, the placement property of the clone is its onw and separate from the of the scaled object. Subsequent changes to the placement of the scaled object **do not** affect the placement of the clone. However, because the GDML Workbench makes use of the original object's placement, changes to those **after** a scaling operation is performed **will** affect the exported model, but not the FreeCAD one. **Therefore, changing the placement of the original object should not be done after scaling**. If it is desired the change the location of the scaled object (the clone), change **that** placement (not the original), or else delete the clone, move the original and scale again.
 
  
 ### Exporting GDML files
